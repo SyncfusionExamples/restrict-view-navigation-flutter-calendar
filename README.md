@@ -4,19 +4,6 @@ This example demonstrates how to restrict the view navigation in the Flutter Cal
 
 You can restrict view navigation in the Flutter Event Calendar by setting the [viewNavigationMode](https://pub.dev/documentation/syncfusion_flutter_calendar/latest/calendar/SfCalendar/viewNavigationMode.html) property value to None.
 
-
-```
-@override
-Widget build(BuildContext context) {
-  return Scaffold(
-    body: SfCalendar(
-      view: CalendarView.day,
-      viewNavigationMode: ViewNavigationMode.none,
-    ),);
-}
-
-```
-
 You can also refer our UG documentation to know more about [ViewNavigationMode](https://help.syncfusion.com/flutter/calendar/date-navigations#view-navigation-mode) in the calendar.
 
 ## Requirements to run the demo
